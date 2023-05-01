@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__nav-bar {
+  position: fixed;
+  background-color: aquamarine;
+}
+
+#header-img {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+#form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+#submit,
+#email {
+  width: 50%;
+  margin: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .header,
+  #video,
+  #form {
+    width: 80%;
+  }
+}
